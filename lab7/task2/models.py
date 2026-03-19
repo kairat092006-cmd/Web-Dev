@@ -5,7 +5,7 @@ class Animal:
         self.color = color
 
     def speak(self):
-        return "Some sound"
+        return "sound"
 
     def move(self):
         return "Moving"
@@ -19,7 +19,7 @@ class Dog(Animal):
         super().__init__(name, age, color)
 
     def speak(self):
-        return "Woof"
+        return "BARK"
 
 
 class Cat(Animal):
@@ -27,4 +27,4 @@ class Cat(Animal):
         super().__init__(name, age, color)
 
     def speak(self):
-        return "Meow"
+        return "Meeeow"
